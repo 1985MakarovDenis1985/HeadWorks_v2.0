@@ -16,11 +16,14 @@
   border: 1px solid transparent;
 
 
+  @media screen and (max-width: 1024px) {
+    width: 50%;
+  }
   @media screen and (max-width: 768px) {
-    width: 70%;
+    width: 60% !important;
   }
   @media screen and (max-width: 320px) {
-    width: 90%;
+    width: 100% !important;
   }
 
 
@@ -92,6 +95,7 @@
 
     #err_credit_card {
       margin-top: 5%;
+      font-size: 12px;
 
       @media screen and (max-width: 1024px) {
         font-size: 12px;
@@ -116,7 +120,7 @@
         @media screen and (max-width: 414px) {
           font-size: 30px;
         }
-        @media screen and (max-width: 414px) {
+        @media screen and (max-width: 320px) {
           font-size: 15px;
         }
       }
@@ -170,12 +174,13 @@
         }
 
         @media screen and (max-width: 375px) {
-          margin-top: 18px !important;
+          margin-top: 19px !important;
           height: 13% !important;
+          font-size: 10px;
         }
 
-        @media screen and (max-width: 375px) {
-          margin-top: 8px !important;
+        @media screen and (max-width: 321px) {
+          margin-top: -10px !important;
           height: 13% !important;
         }
 
@@ -199,6 +204,10 @@
       box-shadow: 1px 0px rgb(88, 52, 0), 1px 1px rgb(122, 74, 0),
       2px 1px rgb(87, 51, 0), 2px 2px rgb(121, 73, 0),
       3px 2px rgb(86, 50, 0), 3px 3px rgb(120, 72, 0);
+
+      @media screen and (max-width: 375px) {
+        width: 70%;
+      }
 
       &:hover {
         margin-top: 15px;

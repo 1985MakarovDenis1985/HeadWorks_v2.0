@@ -11,11 +11,8 @@ const initiallyState = {
                 loyaltyProgram: "",
                 mobileApp: "",
                 dateRegistration: "12.05.2014",
-                creditCard: {
-                    number: "",
-                    date: "",
-                    cv: ""
-                }
+                creditNumber: "1234567812345678",
+
             }, {
             id: 2,
             firstName: "Ervin",
@@ -24,11 +21,8 @@ const initiallyState = {
             loyaltyProgram: "",
             mobileApp: "",
             dateRegistration: "01.01.2013",
-            creditCard: {
-                number: "",
-                date: "",
-                cv: ""
-            }
+            creditNumber: "",
+
         }, {
             id: 3,
             firstName: "Clementine",
@@ -37,11 +31,8 @@ const initiallyState = {
             loyaltyProgram: "",
             mobileApp: "",
             dateRegistration: "08.07.2019",
-            creditCard: {
-                number: "",
-                date: "",
-                cv: ""
-            }
+            creditNumber: "",
+
         }, {
             id: 4,
             firstName: "Patricia",
@@ -50,11 +41,8 @@ const initiallyState = {
             loyaltyProgram: "",
             dateRegistration: "21.09.2019",
             mobileApp: "",
-            creditCard: {
-                number: "",
-                date: "",
-                cv: ""
-            }
+            creditNumber: "",
+
         }, {
             id: 5,
             firstName: "Chelsey",
@@ -63,11 +51,8 @@ const initiallyState = {
             loyaltyProgram: "",
             mobileApp: "",
             dateRegistration: "23.03.2020",
-            creditCard: {
-                number: "",
-                date: "",
-                cv: ""
-            }
+            creditNumber: "8234567812345678",
+
         }
 
         ]

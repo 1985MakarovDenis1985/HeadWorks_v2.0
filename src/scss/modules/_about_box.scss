@@ -58,8 +58,8 @@
   }
 
   .about_box_img {
-    width: 1000px;
-    height: 1000px;
+    width: 1300px;
+    height: 1300px;
     border-radius: 50%;
     position: absolute;
     right: -5%;
@@ -73,8 +73,14 @@
     border: none;
     z-index: 10;
 
+
+    @media screen and (max-width: 1440px) {
+      width: 1100px!important;
+      height: 1100px!important;
+    }
+
     @media screen and (max-width: 1024px) {
-      right: -40%;
+      right: -30% !important;
     }
 
     @media screen and (max-width: 414px) {
