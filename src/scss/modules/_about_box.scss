@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+
+.content_about_box {
+  width: 100%;
+  height: 100%;
+
+  .about_box_info {
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    left: 0;
+    padding: 3%;
+    padding-top: 0;
+    z-index: 100;
+    overflow: scroll;
+
+    @media screen and (max-width: 320px) {
+      width: 70%;
+    }
+
+    &::-webkit-scrollbar {
+      width: 0px;
+      background: rgba(255, 255, 255, 0.0);
+    }
+
+
+    h4 {
+      color: #ffffff;
+      text-shadow: 1px 0px 1px $color-shadow1,
+      0px 1px 1px $color-shadow,
+      2px 1px 1px $color-shadow1,
+      1px 2px 1px $color-shadow,
+      3px 2px 1px $color-shadow1,
+      2px 3px 1px $color-shadow,
+      4px 3px 1px $color-shadow1,
+      3px 4px 1px $color-shadow,
+      5px 4px 1px $color-shadow1,
+      4px 5px 1px $color-shadow,
+    }
+
+    h5 {
+      color: #77450b;
+      font-family: 'Baloo Tammudu 2', cursive;
+
+      @media screen and (max-width: 414px) {
+        font-size: 14px;
+        text-align: justify;
+      }
+    }
+
+    a {
+      //text-decoration: none;
+      color: #77450b;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  .about_box_img {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    position: absolute;
+    right: -5%;
+    top: 0;
+    background-image: url("../img/about.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    z-index: 10;
+
+    @media screen and (max-width: 1024px) {
+      right: -40%;
+    }
+
+    @media screen and (max-width: 414px) {
+      right: -100% !important;
+    }
+
+    @media screen and (max-width: 320px) {
+      right: -150% !important;
+    }
+
+    .img_first_round {
+      width: 100%;
+      height: 100%;
+      //border-radius: 50%;
+      background: rgb(255, 255, 255);
+      border: none;
+
+      background: radial-gradient(circle, rgba(255, 255, 255, 0.24833683473389356) 0%, rgba(248, 243, 237, 1) 61%);
+    }
+  }
+}

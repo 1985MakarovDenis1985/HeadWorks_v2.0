@@ -1,0 +1,31 @@
+$main_text_shadow : #520e23;
+$border_color : saddlebrown;
+$main_text_shadow : 10px 10px 5px 0px rgba(0,0,0,0.75);
+$main_box_shadow : 10px 10px 5px 0px rgba(0,0,0,0.75);
+$color-shadow1: #824d0f;
+$color-shadow: #583711;
+
+@mixin boxPos{
+  box-sizing: border-box;
+  border: 1px solid grey;
+  position: absolute;
+}
+
+@import "modules/kaemframes";
+@import "modules/header";
+@import "modules/client_list";
+@import "modules/registration_box";
+@import "modules/footer";
+@import "modules/about_box";
+
+.main_container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: #f8f3ed;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
